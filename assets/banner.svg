@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" role="img" aria-label="Multi-Modal Evidence Review">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="0.55" stop-color="#111a2e"/>
+      <stop offset="1" stop-color="#0a1410"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="0.5" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <style>
+      text { font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="340" rx="20" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="6" rx="3" fill="url(#accent)"/>
+
+  <!-- scan / eye motif -->
+  <g transform="translate(92,170)" fill="none" stroke="url(#accent)" stroke-width="3">
+    <circle r="46" opacity="0.9"/>
+    <circle r="16" fill="url(#accent)" stroke="none"/>
+    <path d="M-70 -52 h-14 v14 M70 -52 h14 v14 M-70 52 h-14 v-14 M70 52 h14 v-14"
+          stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- title -->
+  <text x="180" y="150" fill="#f8fafc" font-size="54" font-weight="700">Multi-Modal Evidence Review</text>
+  <text x="182" y="196" fill="#9fb3c8" font-size="24" font-weight="400">
+    AI verification of damage claims from images, conversation &amp; user history
+  </text>
+
+  <!-- object pills -->
+  <g font-size="18" font-weight="600">
+    <g transform="translate(182,232)">
+      <rect width="86" height="34" rx="17" fill="#0e2233" stroke="#38bdf8" stroke-opacity="0.5"/>
+      <text x="43" y="23" fill="#7dd3fc" text-anchor="middle">car</text>
+    </g>
+    <g transform="translate(280,232)">
+      <rect width="110" height="34" rx="17" fill="#0e2233" stroke="#22d3ee" stroke-opacity="0.5"/>
+      <text x="55" y="23" fill="#67e8f9" text-anchor="middle">laptop</text>
+    </g>
+    <g transform="translate(402,232)">
+      <rect width="120" height="34" rx="17" fill="#10241b" stroke="#34d399" stroke-opacity="0.5"/>
+      <text x="60" y="23" fill="#6ee7b7" text-anchor="middle">package</text>
+    </g>
+  </g>
+
+  <!-- verdict chips (right) -->
+  <g font-size="17" font-weight="600" text-anchor="middle">
+    <g transform="translate(840,118)">
+      <rect width="150" height="34" rx="8" fill="#0f2a1c" stroke="#34d399" stroke-opacity="0.6"/>
+      <text x="75" y="23" fill="#6ee7b7">supported</text>
+    </g>
+    <g transform="translate(1000,118)">
+      <rect width="150" height="34" rx="8" fill="#2a1414" stroke="#f87171" stroke-opacity="0.6"/>
+      <text x="75" y="23" fill="#fca5a5">contradicted</text>
+    </g>
+    <g transform="translate(920,160)">
+      <rect width="190" height="34" rx="8" fill="#241f0e" stroke="#fbbf24" stroke-opacity="0.6"/>
+      <text x="95" y="23" fill="#fcd34d">not_enough_information</text>
+    </g>
+  </g>
+
+  <!-- tech footer -->
+  <text x="182" y="300" fill="#64748b" font-size="18" font-weight="500">
+    Vision-Language Models · Groq · Ollama · structured outputs · prompt-injection defense · Python
+  </text>
+</svg>
