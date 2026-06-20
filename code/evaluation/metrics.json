@@ -1,0 +1,87 @@
+[
+  {
+    "provider": "groq:qwen/qwen3.6-27b",
+    "metrics": {
+      "n": 20,
+      "scalar_accuracy": {
+        "evidence_standard_met": 0.95,
+        "issue_type": 0.55,
+        "object_part": 0.95,
+        "claim_status": 0.85,
+        "valid_image": 0.75,
+        "severity": 0.45
+      },
+      "multilabel": {
+        "risk_flags": {
+          "precision": 0.645,
+          "recall": 0.769,
+          "f1": 0.702,
+          "exact_set_match": 0.5
+        },
+        "supporting_image_ids": {
+          "precision": 0.773,
+          "recall": 0.895,
+          "f1": 0.829,
+          "exact_set_match": 0.75
+        }
+      },
+      "confusion": {
+        "claim_status": {
+          "supported": {
+            "supported": 12,
+            "contradicted": 1
+          },
+          "contradicted": {
+            "contradicted": 4,
+            "supported": 1
+          },
+          "not_enough_information": {
+            "not_enough_information": 1,
+            "supported": 1
+          }
+        }
+      },
+      "examples_wrong": {
+        "claim_status": [
+          {
+            "row": 1,
+            "user_id": "user_002",
+            "gold": "supported",
+            "pred": "contradicted"
+          },
+          {
+            "row": 13,
+            "user_id": "user_020",
+            "gold": "contradicted",
+            "pred": "supported"
+          },
+          {
+            "row": 17,
+            "user_id": "user_032",
+            "gold": "not_enough_information",
+            "pred": "supported"
+          }
+        ]
+      },
+      "severity_ordinal_mae": 0.611,
+      "full_row_exact_match": 0.2
+    },
+    "operational": {
+      "model_calls": 0,
+      "cache_hits": 20,
+      "images": 29,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "elapsed_sec": 0.4,
+      "cost": {
+        "assumed_model": "gemini-2.5-flash",
+        "input_per_mtok": 0.3,
+        "output_per_mtok": 2.5,
+        "input_cost": 0.0,
+        "output_cost": 0.0,
+        "total_cost": 0.0
+      }
+    },
+    "predictions_csv": "C:\\development\\hackerRank\\repo\\code\\evaluation\\sample_predictions_groq_qwen_qwen3.6-27b.csv"
+  }
+]

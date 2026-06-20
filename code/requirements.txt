@@ -1,0 +1,5 @@
+# Core
+openai>=1.40.0
+google-genai>=1.0.0          # current unified Gemini SDK (legacy google-generativeai is EOL)
+python-dotenv>=1.0.0
+Pillow>=10.0.0

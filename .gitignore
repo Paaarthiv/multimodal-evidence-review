@@ -1,0 +1,19 @@
+# Secrets — never commit
+.env
+code/.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Caches / local run artifacts
+.cache/
+code/.cache/
+code/logs/
+*.log
+
+# OS
+.DS_Store
+__MACOSX/
