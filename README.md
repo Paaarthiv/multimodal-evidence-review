@@ -1,13 +1,19 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Multi-Modal Evidence Review" width="100%">
+  <img src="assets/banner.png" alt="Multi-Modal Evidence Review" width="100%">
+</p>
+
+<h1 align="center">Multi-Modal Evidence Review</h1>
+
+<p align="center">
+  AI-powered evidence analysis across text, images, and claims.
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/Vision--Language%20Models-Qwen%20%7C%20GPT--4o%20%7C%20Gemini-7c3aed" alt="VLM">
-  <img src="https://img.shields.io/badge/inference-Groq%20%7C%20Ollama-0ea5e9" alt="Inference">
-  <img src="https://img.shields.io/badge/claim__status%20accuracy-0.85-22c55e" alt="Accuracy">
-  <img src="https://img.shields.io/badge/license-MIT-blue" alt="License">
+  <img src="https://img.shields.io/badge/Inference-Groq%20%7C%20Ollama-0ea5e9" alt="Inference">
+  <img src="https://img.shields.io/badge/Claim%20Status%20Accuracy-0.85-22c55e" alt="Accuracy">
+  <img src="https://img.shields.io/badge/License-MIT-blue" alt="License">
 </p>
 
 An AI system that verifies **damage claims** (car, laptop, package) by reasoning over
